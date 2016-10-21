@@ -2,27 +2,20 @@ body {
   background-color: #fdf6e3;
 }
 
-header {
+header, footer {
   font-size: 1.5rem;
 }
 
-footer {
-  font-size: 1.5rem;
-}
-
-ul {
+nav ul {
   font-family: sans-serif;
-
 }
 
 .logo {
   text-transform: uppercase;
-
 }
 
 .wrapper {
   background-color: #eee8d5;
-
 }
 
 IDs,
@@ -41,3 +34,34 @@ IDs,
 #types {
   color: #93a1a1;
 }
+
+.dfn {
+  background-color: #b58900;
+}
+
+.dfn:strong + strong {
+  color: #fff;
+}
+
+
+
+6. Select the IDs `contents`, `favs`, `facts` and `types`
+  — add `color: #93a1a1;`
+7. Use a child (or direct descendant) selector to get `.dfn` inside the `wrapper`
+  — add `background-color: #b58900;`
+8. Use an adjacent selector to get the second `strong` inside `.dfn`
+  — add `color: #fff;`
+9. Write the fully qualified selector for `mark`, starting with `html`
+  — add `background-color: #719e07;`
+10. Select the link with `rel="external"` attribute
+  — add `background-color: #2694d8;`
+11. Select the first `li` inside the `ol`
+  — add `color: #719e47;`
+12. Select the last `li` inside the `ol`
+  — add `color: #2aa198;`
+13. Select every odd `li` inside `.types`
+  — add `background-color: #657ba3;`
+14. Select every even `li` inside `.types`
+  — add `background-color: #586e75;`
+15. Select every 3rd `li` inside `.types`
+  — add `background-color: #d04b16;`
